@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #A49DFF;
+    margin-bottom: 20px;
+  }
+  
+  .timePickerContainer {
+    background-color: #EEE;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .timeDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .timeText {
+    font-size: 36px;
+    color: #5E4FB2;
+    font-weight: bold;
+  }
+  
+  .separator {
+    font-size: 36px;
+    color: #5E4FB2;
+  }
+  
+  .ampmContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  
+  .ampmText {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .am {
+    color: #DAB6FC;
+    background-color: #FFD6FF;
+  }
+  
+  .pm {
+    color: #5E4FB2;
+    background-color: #FFD6FF;
+  }
+  
+  .confirmButton {
+    background-color: #5E4FB2;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .confirmText {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
